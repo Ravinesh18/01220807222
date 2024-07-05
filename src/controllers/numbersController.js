@@ -1,4 +1,4 @@
-const numberService = require('../services/numberService.js');
+const numberService = require('../services/numberSevice.js');
 
 const getNumbers = async (req, res) => {
     const { numberid } = req.params;
